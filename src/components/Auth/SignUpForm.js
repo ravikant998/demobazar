@@ -225,6 +225,7 @@ const SignUpForm = ({ onclose }) => {
                       />
                     </div>
                   </div>
+
                   <div className="form-input">
                     <div className="MuiFormControl-root MuiTextField-root">
                       <label

@@ -12,7 +12,6 @@ const CozyHomeSlider = ({ data }) => {
       id: data.id,
     };
     getHomePageData(requestPayload).then((res) => {
-      // console.log("--->", res.data.data);
       setCozyData(res.data.data);
     });
   }, [data]);
